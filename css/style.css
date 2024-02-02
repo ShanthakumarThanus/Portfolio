@@ -159,6 +159,13 @@ span {
     font-size: 4.5em;
 }
 
+.headingP {
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: bold;
+    padding: 1em;
+}
+
 .about-content h2 {
     text-align: left;
     line-height: 1.2;
