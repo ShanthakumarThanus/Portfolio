@@ -15,7 +15,7 @@
     --bg-color : #1f242d;
     --second-bg-color : #323946;
     --text-color : #fff;
-    --main-color: #0ef;  
+    --main-color: rgb(0, 255, 98);  
 }
 
 html {
@@ -159,12 +159,6 @@ span {
     font-size: 4.5em;
 }
 
-.headingP {
-    text-align: center;
-    font-size: 3.5em;
-    font-weight: bold;
-    padding: 1em;
-}
 
 .about-content h2 {
     text-align: left;
@@ -178,6 +172,11 @@ span {
 
 .services h2 {
     margin-bottom: 5rem;
+}
+
+.services p {
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
 }
 
 .services-container {
@@ -219,6 +218,11 @@ span {
 
 .portfolio {
     background: var(--second-bg-color);
+}
+
+.portfolio p {
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
 }
 
 .portfolio h2 {

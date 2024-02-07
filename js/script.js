@@ -44,10 +44,10 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.home-content, heading', {origin: 'top'});
-ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form' { origin:
+ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form, .headingP', { origin:
 'bottom'});
-ScrollReveal().reveam('.home-content h1, .about-img', {origin: 'left'});
-ScrollReveal().reveam('.home-content p, .about-content', {origin: 'right'});
+ScrollReveal().reveal('.home-content h1, .about-img', {origin: 'left'});
+ScrollReveal().reveal('.home-content p, .about-content', {origin: 'right'});
 
 
 /*==================== typed js ====================*/
