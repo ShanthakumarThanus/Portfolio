@@ -15,7 +15,7 @@
     --bg-color : #1f242d;
     --second-bg-color : #323946;
     --text-color : #fff;
-    --main-color: rgb(0, 255, 98);  
+    --main-color: rgb(255, 145, 0);  
 }
 
 html {
@@ -429,3 +429,7 @@ span {
         margin: 3rem 0;
     }    
 }
+
+/* ligne verticale*/
+
+/*  */
