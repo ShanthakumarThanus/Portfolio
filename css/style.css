@@ -430,6 +430,9 @@ span {
     }    
 }
 
-/* ligne verticale*/
+/* progress bar */
 
-/*  */
+label {
+    padding-right: 10px;
+    font-size: 1rem;
+}
