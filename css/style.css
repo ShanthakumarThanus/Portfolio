@@ -220,7 +220,7 @@ span {
     background: var(--second-bg-color);
 }
 
-.portfolio p {
+.portfolio p, li {       /* j'ai rajouté 'li' pour les listes à puces des missions faites en stage */
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
