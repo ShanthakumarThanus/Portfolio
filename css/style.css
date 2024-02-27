@@ -165,11 +165,13 @@ span {
 .about-content h2 {
     text-align: left;
     line-height: 1.2;
+    margin-bottom: 5rem; 
 }
 
 .about-content p {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
+    
 }
 
 .services h2 {
@@ -475,5 +477,97 @@ label {
 
 .veille h2
 {
-    /* margin-bottom: 3rem; marge pour les titres h2 */
+     margin-bottom: 3rem; /*marge pour les titres h2 */
+}
+
+
+/* parcours */
+
+.parcours-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+.parcours-container .parcours-box {
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+    transition: .5s ease;
+}
+
+.parcours-box {
+    margin-bottom: 3rem;
+    width: 200px;
+    height: 220px;  
+}
+
+.parcours-container .parcours-box:hover {
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
+
+.parcours-box i {
+    font-size: 7rem;
+    color: var(--main-color);
+}
+
+.parcours-box h3 {
+    font-size: 2.6rem;
+}
+
+.parcours-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+
+/* stage */
+
+.stage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.stage-container .stage-box {
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+    transition: .5s ease;
+}
+
+.stage-container .stage-box:hover {
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
+
+.stage-box i {
+    font-size: 7rem;
+    color: var(--main-color);
+}
+
+.stage-box h3 {
+    font-size: 2.6rem;
+}
+
+.stage-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+
+.stage-box {
+    width: 200px;
+    height: 500px; 
 }
